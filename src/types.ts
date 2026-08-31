@@ -1,6 +1,7 @@
 export interface Wallpaper {
   id: string;
   publicId: string;
+  name: string;
   width: number;
   height: number;
   format: string;
